@@ -1,10 +1,10 @@
 --- #YAML:1.0
 name:               Template-Plugin-CSS-LESSp
-version:            0.01
+version:            0.02
 abstract:           Filter your CSS with CSS::LESSp
 author:
     - Michael Langner
-license:            unknown
+license:            perl
 distribution_type:  module
 configure_requires:
     ExtUtils::MakeMaker:  0
@@ -13,6 +13,7 @@ build_requires:
 requires:
     CSS::LESSp:           0.03
     Template::Plugin::Filter:  1.30
+    Test::More:           0.80
 no_index:
     directory:
         - t

@@ -1,7 +1,11 @@
 Changes
+examples/process.pl
+examples/style.tt
 lib/Template/Plugin/CSS/LESSp.pm
 Makefile.PL
-MANIFEST
+MANIFEST			This list of files
 README
-t/00-css-lessp.t
+t/00-pod.t
+t/10-plugin.t
+t/11-css-lessp.t
 META.yml                                 Module meta-data (added by MakeMaker)
