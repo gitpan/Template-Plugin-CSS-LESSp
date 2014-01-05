@@ -1,4 +1,7 @@
 package Template::Plugin::CSS::LESSp;
+{
+  $Template::Plugin::CSS::LESSp::VERSION = '0.03';
+}
 
 use strict;
 use warnings;
@@ -9,10 +12,6 @@ use base 'Template::Plugin::Filter';
 =head1 NAME
 
 Template::Plugin::CSS::LESSp - Filter your CSS with CSS::LESSp
-
-=cut
-
-our $VERSION = '0.02';
 
 =head1 SYNOPSIS
 
@@ -53,7 +52,7 @@ your bug as I make changes.
 
 =head1 COPYRIGHT & LICENSE
 
-Copyright 2009 Michael Langner, all rights reserved.
+Copyright 2014 Michael Langner, all rights reserved.
 
 This program is free software; you can redistribute it and/or modify it under the
 same terms as Perl itself.
